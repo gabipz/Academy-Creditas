@@ -4,90 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurejitto - Culinária Japonesa</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="../general/img/sushi_creditas.png" alt="Ícone Restaurante">
+    <header>       
+        <nav class="nav-main">
+            <div class="circle-img">
+                <img id="img-logo" src="../general/img/sushi_creditas.png" alt="Ícone Restaurante">
+            </div>
             <h1>Kurejitto</h1>
-        </div>
-        <nav>
             <ul class="navbar">
-                <li class="nav-item"><a class="" href="#home">Início</a></li>              
-                <li><a class="" href="#historia">História</a></li>
-                <li><a class="" href="#cardapio">Cardápio</a></li> 
-                <li><a class="" href="#localizacao">Localização</a></li>
-                <li><a class="" href="#contato">Contato</a></li>
+                <li><a class="nav-item" href="#home">Início</a></li>              
+                <li><a class="nav-item" href="#historia">Quem somos</a></li>
+                <li><a class="nav-item" href="#cardapio">Cardápio</a></li> 
+                <li><a class="nav-item" href="#localizacao">Localização</a></li>
+                <li><a class="nav-item" href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section class="flex-container" id="home">
-        
-    </section>
+    <main class="container">
+        <section class="flex-container" id="home">
+            <h2>Bem vindo(a) ao Kurejitto</h2>
+        </section>
 
-    <section class="flex-container" id="historia">
-        <h2>Bem vindo(a) ao Kurejitto</h2>       
-        <p>
-            Lorem ipsum phasellus curabitur eu leo cubilia tortor rutrum, vel habitasse urna augue rutrum sollicitudin in lectus ad, vel tempor ac enim auctor adipiscing torquent. 
-            conubia lorem arcu scelerisque nunc commodo nec elementum torquent eros ante felis ipsum, hac nam orci ipsum tellus vel praesent rutrum maecenas curabitur mauris, donec sociosqu facilisis nibh mattis dapibus tellus diam dictumst fringilla lacinia. 
-            suscipit morbi vitae vestibulum pretium quisque augue et, egestas turpis pellentesque aliquet id convallis odio libero, eget fames at risus platea sollicitudin. 
-            nisl venenatis vehicula sollicitudin turpis ullamcorper praesent et porta, elit arcu scelerisque per eget accumsan eu diam mattis, suscipit congue etiam convallis enim torquent eget. 
-        </p>
-        <img src="../general/img/" alt="">
-    </section>
-    
-    <section class="flex-container" id="cardapio">       
-        <h2>Cardápio</h2>
+        <section class="flex-container" id="historia">
+                   
+            <p>
+                Lorem ipsum phasellus curabitur eu leo cubilia tortor rutrum, vel habitasse urna augue rutrum sollicitudin in lectus ad, vel tempor ac enim auctor adipiscing torquent. 
+                conubia lorem arcu scelerisque nunc commodo nec elementum torquent eros ante felis ipsum, hac nam orci ipsum tellus vel praesent rutrum maecenas curabitur mauris, donec sociosqu facilisis nibh mattis dapibus tellus diam dictumst fringilla lacinia. 
+                suscipit morbi vitae vestibulum pretium quisque augue et, egestas turpis pellentesque aliquet id convallis odio libero, eget fames at risus platea sollicitudin. 
+                nisl venenatis vehicula sollicitudin turpis ullamcorper praesent et porta, elit arcu scelerisque per eget accumsan eu diam mattis, suscipit congue etiam convallis enim torquent eget. 
+            </p>
+            <img src="../general/img/pexels-audrey-mari-3421920.jpg" alt="Foto restaurante japonês">
+        </section>
         
-    </section>
-    
+        <section class="flex-container" id="cardapio">       
+            <h2>Cardápio</h2>
+            
 
-    <section class="flex-container" id="localizacao">
-        <h2>Localização</h2>
-        <pre>
-            Rua Irmã Gabriela, 51
-            Cidade das Monções, São Paulo - SP
+        </section>
+        
+
+        <section class="flex-container" id="localizacao">
+            <h2>Localização</h2>
+            <pre>
+                Rua Irmã Gabriela, 51
+                Cidade das Monções, São Paulo - SP
+            </pre>
+            <pre>
+                <b>Horário de Funcionamento:</b>
+
+                Segunda a sexta, no almoço, das 11:30h às 15:30h, e jantar, das 18:30 às 22h.
+                Sábado e Domingo, das 12h às 22h.
         </pre>
-        <pre>
-            <b>Horário de Funcionamento:</b>
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.990708841394!2d-46.69579021246908!3d-23.604666160688883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5734f3389797%3A0xf1ad3d19d6894084!2sR.%20Irm%C3%A3%20Gabriela%2C%2051%20-%20Cidade%20Mon%C3%A7%C3%B5es%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004571-130!5e0!3m2!1spt-BR!2sbr!4v1612205702294!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
+            </div>
+        </section>
+        <section class="flex-container" id="contato">
+            <div>
+                <h2>Contato</h2>
+                <h3>Críticas e Sugestões</h3>
+            </div>       
+            
+            <form action="">
+                <p>
+                    <label for="nome"></label>
+                    <input type="text" id="nome" placeholder="Nome">
+                </p>
+                <p>
+                    <label for="email"></label>
+                    <input type="text" id="email" placeholder="E-mail">
+                </p>
+                <p>
+                    <label for="assunto"></label>
+                    <input type="text" id="assunto" placeholder="Assunto">
+                </p>
+                <p>
+                    <label for="mensagem"></label>
+                    <input type="text" id="mensagem" placeholder="Mensagem">
+                </p>
 
-            Segunda a sexta, no almoço, das 11:30h às 15:30h, e jantar, das 18:30 às 22h.
-            Sábado e Domingo, das 12h às 22h.
-    </pre>
-        <div class="mapa-conteudo">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.990708841394!2d-46.69579021246908!3d-23.604666160688883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5734f3389797%3A0xf1ad3d19d6894084!2sR.%20Irm%C3%A3%20Gabriela%2C%2051%20-%20Cidade%20Mon%C3%A7%C3%B5es%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004571-130!5e0!3m2!1spt-BR!2sbr!4v1612205702294!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe> -->
-        </div>
-    </section>
-    <section class="flex-container" id="contato">
-        <div>
-            <h2>Contato</h2>
-            <h3>Críticas e Sugestões</h3>
-        </div>       
-        
-        <form action="">
-            <p>
-                <label for="nome"></label>
-                <input type="text" id="nome" placeholder="Nome">
-            </p>
-            <p>
-                <label for="email"></label>
-                <input type="text" id="email" placeholder="E-mail">
-            </p>
-            <p>
-                <label for="assunto"></label>
-                <input type="text" id="assunto" placeholder="Assunto">
-            </p>
-            <p>
-                <label for="mensagem"></label>
-                <input type="text" id="mensagem" placeholder="Mensagem">
-            </p>
-
-            <input type="submit" value="Enviar mensagem">
-        </form>
-    </section>
-
+                <input type="submit" value="Enviar mensagem">
+            </form>
+        </section>
+    </main>
 
 </body>
 </html>
