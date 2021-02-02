@@ -5,21 +5,21 @@
 }
 
 body {
-    font-family: Open Sans,Arial,sans-serif;
-    width: 900px;
+    font-family: 'Cairo', sans-serif;  
     text-align: left;
     background-color: #5A9988;
 }
 
-header {
-    color: #f7f7f7;
+.container {
+    display: flex;
+    width: 900px;
 }
 
 .nav-main {
     width: 250px;
+    height: 100%;
     background-color: #E89D88;
-    border-radius: 20px;
-    text-align: center; 
+    text-align: center;
 }
 
 .circle-img {
@@ -30,50 +30,29 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-size: cover;
-    background-position: center;
 }
 
  #img-logo {
     width: 130px;
 }
 
-
-
 .nav-item {
     text-transform: uppercase;
     color: #f7f7f7;
     text-decoration: none; /* tira os itens dos links */
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .nav-item:hover {
     color:#5A9988;
     
 }
+.header {
+    letter-spacing: 3px;
+    color: #efefef;
+}
 
-.container {
-    padding-left: 250px;
+.main {
     width: 650px;
 }
-
-/*  
-.nav-main {
-    background-color: #A2F2CD;
-    margin: 0 0 0 15px;
-    width: ;
-    height: ;
-}*/
-
-/* 
-ul {
-    text-decoration: none; /* tira os itens dos links */
-}
-
-/*
-
-/*
-header {
-    background-color: #A2F2CD;
-    margin: 0 0 0 15px;
-} */
