@@ -7,13 +7,15 @@
 body {
     font-family: 'Cairo', sans-serif;  
     text-align: left;
-    background-color: #5A9988;
 }
 
 .container {
+    background-color: #5A9988;
     display: flex;
     width: 900px;
-}
+    height: 95%;
+    /* background-image: url("../../general/img/sakura.jpg");*/
+} 
 
 .nav-main {
     width: 250px;
@@ -39,9 +41,10 @@ body {
 .nav-item {
     text-transform: uppercase;
     color: #f7f7f7;
-    text-decoration: none; /* tira os itens dos links */
+    text-decoration: none;
     text-align: center;
-    letter-spacing: 3px;
+    /* margin-bottom: 50px; espaçamento entre linhas -não está funcionando*/
+    letter-spacing: 3px;  
 }
 
 .nav-item:hover {
@@ -49,10 +52,48 @@ body {
     
 }
 .header {
+    background-color: #5A9988;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
     letter-spacing: 3px;
-    color: #efefef;
+    color: white;
+}
+
+.welcome {
+    margin: 10px;
+    color:white;
+
 }
 
 .main {
     width: 650px;
+} 
+
+.content {  
+    display: flex;
+    flex-direction: column;
+    /* background: #efefef; */
+}
+
+ .featured-img{
+    float: left;
+} 
+.img {
+    background-color: white;
+    margin: 35px;
+    width: 250px;
+    height: 300px;
+    float: left;    
+}
+
+.legend-title {
+    color: #A04F4B;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #E89D88;
+    text-align: center;
 }
