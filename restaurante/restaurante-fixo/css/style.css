@@ -2,6 +2,7 @@
 * { /* reseta estilo das margens */
     padding: 0px;
     margin: 0px;
+    font-family: 'Cairo', sans-serif;
 }
 
 /* GERAL */
@@ -82,6 +83,8 @@ body {
 }
 
 .title {
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
     margin: 40px;
     color:white;
 }
@@ -176,6 +179,7 @@ p {
 .form-contact{
     margin: 20px;
 }
+
 .form-title {
     margin: 10px;
     color:black;
@@ -200,6 +204,11 @@ form p input {
 
 input#mensagem {
     height: 70px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 30px;
+    margin-left: 130px;
 }
 
 input[type=submit] {
