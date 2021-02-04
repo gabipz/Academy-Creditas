@@ -1,0 +1,242 @@
+
+* { /* reseta estilo das margens */
+    padding: 0px;
+    margin: 0px;
+}
+
+/* GERAL */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container {
+    margin: auto;
+    background-color: #5A9988;
+    display: flex;
+    width: 900px;
+    height: 95%;
+    background-image: url("../../general/img/sakura.jpg");
+    background-attachment: fixed;
+}
+
+.left-side {
+    background-color: #E89D88;
+    width: 250px;
+    height: 650px;
+}
+
+.nav-main {
+    text-align: center;
+}
+
+.navbar {
+    padding: 50px;
+    line-height: 50px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.circle-img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #A04F4B;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ #img-logo {
+    width: 130px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    color: #f7f7f7;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    /* margin-bottom: 50px; espaçamento entre linhas -não está funcionando*/
+    letter-spacing: 3px;
+}
+
+.nav-item:hover {
+    color:#5A9988;
+    text-decoration: underline;
+}
+.header {
+    background-color: #5A9988;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main {
+    width: 650px;
+}
+
+.title {
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
+    margin: 40px;
+    color:white;
+}
+
+/* ÍNICIO - BEM VINDO */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-img {
+    margin: 30px;
+    background-color: #DBE0D1;
+    border-radius: 10px;
+}
+
+ /* img 1 */
+/* .box-img img {
+    padding-left: 130px;
+    margin: 20px;     
+}  */
+
+/* img2 */
+.box-img img {
+    padding-left: 40px;
+    margin: 10px;     
+}
+
+/* ÍNICIO - DESTAQUES  */
+.cards {
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+}
+
+.legend-title {
+    color: #A04F4B;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    color: gray;
+    text-align: center;
+}
+
+/* CARDÁPIO */
+
+.hr-little {
+    width: 150px;
+    margin-left: 20px;
+    
+}
+
+.cards-menu {
+    background-color: white;   
+    height: 380px;
+    border-radius: 10px;
+    
+} 
+
+.cards-img {
+    margin: 10px;
+    float: left;
+}
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards-menu {
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 380px;
+    float: left;
+    border-radius: 10px;
+}
+
+
+/* CONTATO E LOCALIZAÇÃO */
+
+.form-contact{
+    margin: 20px;
+}
+
+.form-title {
+    margin: 10px;
+    color:black;
+    font-weight: bold;
+    background-color: #F1E7E7;
+    border-radius: 5px;
+}
+
+fieldset {
+    background-color: #DBE0D1;
+    border-radius: 10px;
+    border: black;
+}
+
+form p input {
+    color: black;
+    background-color: #F1E7E7;
+    width: 300px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+input#mensagem {
+    height: 70px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 30px;
+    margin-left: 130px;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #F1E7E7;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #5A9988;
+    color: #F1E7E7;
+}
+
+
+pre, p {
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Cairo', sans-serif;
+    color: gray;
+}
+
+.text{
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #DBE0D1;
+    border-radius: 5px;
+}
