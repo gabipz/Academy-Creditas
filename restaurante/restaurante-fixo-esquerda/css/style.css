@@ -2,13 +2,12 @@
 * { /* reseta estilo das margens */
     padding: 0px;
     margin: 0px;
-    font-family: 'Cairo', sans-serif;
 }
 
 /* GERAL */
 body {
     font-family: 'Cairo', sans-serif;
-    text-align: left;
+    background-color: #f7f7f7;
 }
 
 .container {
@@ -103,16 +102,16 @@ body {
 }
 
  /* img 1 */
-.box-img img {
+/* .box-img img {
     padding-left: 130px;
     margin: 20px;     
-} 
+}  */
 
 /* img2 */
-/* .box-img img {
-    padding-left: 80px;
-    margin: 20px;     
-} */
+.box-img img {
+    padding-left: 40px;
+    margin: 10px;     
+}
 
 /* ÍNICIO - DESTAQUES  */
 .cards {
