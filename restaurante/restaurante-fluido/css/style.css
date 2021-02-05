@@ -1,4 +1,4 @@
-* { /* reseta estilo das margens */
+* {
     padding: 0px;
     margin: 0px;
 }
@@ -6,16 +6,13 @@
 /* GERAL */
 body {
     font-family: 'Cairo', sans-serif;
-    background-color: #f7f7f7;
+    background-image: url("../../general/img/sakura.jpg");
+    background-attachment: fixed;
+    background-color: #5A9988;
 }
 
 .container {
-    margin: auto;
-    background-color: #5A9988;
     display: flex;
-    height: 95%;
-    background-image: url("../../general/img/sakura.jpg");
-    background-attachment: fixed;
 }
 
 .left-side {
@@ -70,7 +67,7 @@ body {
 .header {
     background-color: #5A9988;
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto;
     text-align: center;
     letter-spacing: 3px;
     color: white;
@@ -78,46 +75,71 @@ body {
 }
 
 .title {
+    display: flex;
+    justify-content: center;
     font-family: 'Cairo', sans-serif;
     text-transform: uppercase;
     margin: 40px;
     color:white;
 }
 
-/* ÍNICIO - BEM VINDO */
-
-.content {
-    position: relative;
-    
+.main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
 }
+
+.cards-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ÍNICIO - BEM VINDO */
 
 .box-img {
     background-color: #DBE0D1;
     border-radius: 10px;
+    /* min-width: 600px;
+    min-height: 400px;
+    max-width: 950px;
+    max-height: 600px; */
 }
-
- /* img 1 */
-/* .box-img img {
-    padding-left: 130px;
-    margin: 20px;     
-}  */
 
 /* img2 */
 .box-img img {
-    padding-left: 40px;
-    margin: 10px;     
+    padding-left: 10%;
+    margin: 4%;
+    min-width: 500px;
+    min-height: 400px;
+    max-width: 700px;
+    max-height: 600px;
 }
+
 
 /* ÍNICIO - DESTAQUES  */
 .cards {
     background-color: white;
     margin-left: 10px;
     margin-bottom: 20px;
-    width: 200px;
-    height: 300px;
-    float: left;
+    /* margin: auto; */
+    /* width: 200px;
+    height: 300px; */
+    max-width:400px;
+    max-height:500px;
+    width: auto;
+    height: auto;
     border-radius: 10px;
+
+
 }
+
+.img-menu {
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
 
 .legend-title {
     color: #A04F4B;
@@ -134,24 +156,15 @@ p {
 
 /* CARDÁPIO  E RODÍZIO*/
 
-#menu {
-    paddin
-}
-
 .hr-little {
-    width: 150px;
-    margin-left: 20px; 
-}
 
-.cards-menu {
-    background-color: white;   
-    height: 380px;
-    border-radius: 10px;
-} 
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 150px;
+}
 
 .cards-img {
     margin: 10px;
-    float: left;
 }
 
 .price {
@@ -162,13 +175,12 @@ p {
 .cards-menu {
     background-color: white;
     margin-left: 10px;
-    margin-bottom: 20px;
-    width: 200px;
+    margin-bottom: 3%;
+    width: 30,76923076923077%;
     height: 380px;
     float: left;
     border-radius: 10px;
 }
-
 
 /* CONTATO E LOCALIZAÇÃO */
 
