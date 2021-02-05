@@ -30,6 +30,6 @@ O box do produto nas listas contém a foto, nome e uma mini descrição.
 
 2. [X] Layout fixo centralizado;
 
-3. [X] Layout fluído: tanto o menu quanto o conteúdo
+3. [] Layout fluído: tanto o menu quanto o conteúdo
 
-4. [X] Menu com largura fixa + conteúdo fluido.
+4. [] Menu com largura fixa + conteúdo fluido.
