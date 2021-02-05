@@ -99,10 +99,6 @@ body {
 .box-img {
     background-color: #DBE0D1;
     border-radius: 10px;
-    /* min-width: 600px;
-    min-height: 400px;
-    max-width: 950px;
-    max-height: 600px; */
 }
 
 /* img2 */
@@ -129,8 +125,6 @@ body {
     width: auto;
     height: auto;
     border-radius: 10px;
-
-
 }
 
 .img-menu {
@@ -139,7 +133,6 @@ body {
     width: auto;
     height: auto;
 }
-
 
 .legend-title {
     color: #A04F4B;
@@ -157,14 +150,9 @@ p {
 /* CARDÁPIO  E RODÍZIO*/
 
 .hr-little {
-
     margin-bottom: 10px;
     margin-left: 20px;
     width: 150px;
-}
-
-.cards-img {
-    margin: 10px;
 }
 
 .price {
@@ -173,18 +161,25 @@ p {
 }
 
 .cards-menu {
-    background-color: white;
-    margin-left: 10px;
-    margin-bottom: 3%;
-    width: 30,76923076923077%;
+    margin: auto;
+    width: 30%;
     height: 380px;
-    float: left;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 3%;
     border-radius: 10px;
+}
+
+.cards-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 /* CONTATO E LOCALIZAÇÃO */
 
-.form-contact{
+.form-contact {
     margin: 20px;
 }
 
@@ -232,7 +227,6 @@ input[type=submit]:hover {
     color: #F1E7E7;
 }
 
-
 pre, p {
     padding: 10px;
     margin: 10px;
@@ -246,5 +240,5 @@ pre, p {
     margin: 20px auto;
     padding: 5px;
     background-color: #DBE0D1;
-    border-radius: 5px;
+    border-radius: 10px;
 }
