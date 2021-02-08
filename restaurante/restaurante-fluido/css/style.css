@@ -113,23 +113,23 @@ body {
     margin-left: 20%;
 }
 
-
 /* ÍNICIO - DESTAQUES  */
 .cards {
+    margin: auto;
+    width: 20%;
+    height: 380px;
+    padding: 10px;
     background-color: white;
-    margin-bottom: 20px;
-    max-width:400px;
-    max-height:500px;
-    width: auto;
-    height: auto;
-    border-radius: 10px;
+    margin-bottom: 3%;
+    border-radius: 10px;   
 }
 
 .img-menu {
-    max-width:300px;
-    max-height:200px;
-    width: auto;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    height: 80%;
 }
 
 .legend-title {
@@ -176,7 +176,7 @@ p {
 }
 
 .cards-img img {
-    width: 80%;
+    width: 60%;
 }
 
 /* CONTATO E LOCALIZAÇÃO */
@@ -194,26 +194,30 @@ p {
 }
 
 fieldset {
+    margin: auto;
     background-color: #DBE0D1;
     border-radius: 10px;
     border: black;
+    width: 60%;
 }
 
 form p input {
+    margin: auto;
     color: black;
     background-color: #F1E7E7;
     width: 300px;
-    margin: 7px;
     border-radius: 5px;
 }
 
 input#mensagem {
     height: 70px;
+    margin: auto;
 }
 
 input[type="text"], input[type="email"] {
     height: 30px;
-    margin-left: 130px;
+    display: block;
+    margin: auto;
 }
 
 input[type=submit] {
@@ -229,7 +233,7 @@ input[type=submit]:hover {
     color: #F1E7E7;
 }
 
-pre, p {
+p {
     padding: 10px;
     margin: 10px;
     text-align: justify;
@@ -237,10 +241,18 @@ pre, p {
     color: gray;
 }
 
-.text{
+.mapa-conteudo iframe, .local {
     display: block;
-    margin: 20px auto;
-    padding: 5px;
+    margin: auto;
+    width: 90%;
+}
+
+/* SOBRE */
+
+.text{
+    margin: auto;
+    padding: 10px;
+    width: 60%;
     background-color: #DBE0D1;
     border-radius: 10px;
 }
