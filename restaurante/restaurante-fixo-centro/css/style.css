@@ -102,13 +102,6 @@ body {
     border-radius: 10px;
 }
 
- /* img 1 */
-/* .box-img img {
-    padding-left: 130px;
-    margin: 20px;     
-}  */
-
-/* img2 */
 .box-img img {
     padding-left: 40px;
     margin: 10px;     
@@ -143,14 +136,12 @@ p {
 .hr-little {
     width: 150px;
     margin-left: 20px;
-    
 }
 
 .cards-menu {
     background-color: white;   
     height: 380px;
     border-radius: 10px;
-    
 } 
 
 .cards-img {
