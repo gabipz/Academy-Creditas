@@ -99,27 +99,25 @@ body {
 .box-img {
     background-color: #DBE0D1;
     border-radius: 10px;
+    width: 60%;
+    margin: auto;
 }
 
 /* img2 */
 .box-img img {
-    padding-left: 10%;
-    margin: 4%;
-    min-width: 500px;
-    min-height: 400px;
-    max-width: 700px;
-    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 2%;
+    margin-left: 20%;
 }
 
 
 /* ÍNICIO - DESTAQUES  */
 .cards {
     background-color: white;
-    margin-left: 10px;
     margin-bottom: 20px;
-    /* margin: auto; */
-    /* width: 200px;
-    height: 300px; */
     max-width:400px;
     max-height:500px;
     width: auto;
@@ -149,11 +147,11 @@ p {
 
 /* CARDÁPIO  E RODÍZIO*/
 
-.hr-little {
+/* .hr-little {
     margin-bottom: 10px;
     margin-left: 20px;
     width: 150px;
-}
+} */
 
 .price {
     text-align: center;
@@ -162,7 +160,7 @@ p {
 
 .cards-menu {
     margin: auto;
-    width: 30%;
+    width: 20%;
     height: 380px;
     padding: 10px;
     background-color: white;
@@ -175,6 +173,10 @@ p {
     justify-content: center;
     align-items: center;
     height: 200px;
+}
+
+.cards-img img {
+    width: 80%;
 }
 
 /* CONTATO E LOCALIZAÇÃO */
