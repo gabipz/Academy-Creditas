@@ -5,13 +5,13 @@ Site de restaurante japonês.
 
 ### Versões:
 
-1. [X] [Layout fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/) com largura total de 900px alinhada a esquerda com menu possuindo 250px e o conteúdo 650px;
+- [X] [Layout fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/): largura total de 900px, alinhada a esquerda com menu possuindo 250px e o conteúdo 650px;
 
-2. [X] [Layout fixo centralizado](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/);
+- [X] [Layout fixo centralizado](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/) idem ao layout fixo, centralizado;
 
-3. [X] [Layout fluído](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido/): tanto o menu quanto o conteúdo
+- [X] [Layout fluído](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido/): tanto o menu quanto o conteúdo;
 
-4. [X] [Layout fluído e menu fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido-menufixo/) Menu com largura fixa + conteúdo fluido.
+- [X] [Layout fluído e menu fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido-menufixo/): menu com largura fixa + conteúdo fluído.
 
 
 ### Páginas:
@@ -26,7 +26,7 @@ Site de restaurante japonês.
 - Rodízio;
 
 - Contato:
-	- Formulário (nome, email, mensagem e o botão);
+	- Formulário (nome, email, mensagem e botão);
 
 	- Mapinha do google com a localização do restaurante;
 
