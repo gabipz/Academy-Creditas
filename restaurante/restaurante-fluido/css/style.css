@@ -1,0 +1,258 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* GERAL */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-image: url("../../general/img/sakura.jpg");
+    background-attachment: fixed;
+    background-color: #5A9988;
+}
+
+.container {
+    display: flex;
+}
+
+.left-side {
+    margin: 10px;
+    background-color: #E89D88;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.nav-main {
+    text-align: center;
+}
+
+.navbar {
+    padding: 50px;
+    line-height: 50px;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.circle-img {
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    background-color: #A04F4B;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ #img-logo {
+    width: 130px;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    color: #f7f7f7;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    /* margin-bottom: 50px; espaçamento entre linhas -não está funcionando */
+    letter-spacing: 3px;
+}
+
+.nav-item:hover {
+    color:#5A9988;
+    text-decoration: underline;
+}
+.header {
+    background-color: #5A9988;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+    text-transform: uppercase;
+    margin: 40px;
+    color:white;
+}
+
+.main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.cards-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ÍNICIO - BEM VINDO */
+
+.box-img {
+    background-color: #DBE0D1;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+/* img2 */
+.box-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 2%;
+    margin-left: 20%;
+}
+
+/* ÍNICIO - DESTAQUES  */
+.cards {
+    margin: auto;
+    width: 20%;
+    height: 380px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 3%;
+    border-radius: 10px;   
+}
+
+.img-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    height: 80%;
+}
+
+.legend-title {
+    color: #A04F4B;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    color: gray;
+    text-align: center;
+}
+
+/* CARDÁPIO  E RODÍZIO*/
+
+/* .hr-little {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 150px;
+} */
+
+.price {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards-menu {
+    margin: auto;
+    width: 20%;
+    height: 380px;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+
+.cards-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.cards-img img {
+    width: 60%;
+}
+
+/* CONTATO E LOCALIZAÇÃO */
+
+.form-contact {
+    margin: 20px;
+}
+
+.form-title {
+    margin: 10px;
+    color:black;
+    font-weight: bold;
+    background-color: #F1E7E7;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin: auto;
+    background-color: #DBE0D1;
+    border-radius: 10px;
+    border: black;
+    width: 60%;
+}
+
+form p input {
+    margin: auto;
+    color: black;
+    background-color: #F1E7E7;
+    width: 300px;
+    border-radius: 5px;
+}
+
+input#mensagem {
+    height: 70px;
+    margin: auto;
+}
+
+input[type="text"], input[type="email"] {
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+
+input[type=submit] {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #F1E7E7;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #5A9988;
+    color: #F1E7E7;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Cairo', sans-serif;
+    color: gray;
+}
+
+.mapa-conteudo iframe, .local {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+/* SOBRE */
+
+.text{
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    background-color: #DBE0D1;
+    border-radius: 10px;
+}
