@@ -1,17 +1,17 @@
 # Restaurante
 
 ## Instruções
-Site de restaurante japonês.
+Site de restaurante japonês com quatro versões.
 
 ### Versões:
 
-- [X] [Layout fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/): largura total de 900px, alinhada a esquerda com menu possuindo 250px e o conteúdo 650px;
+- [X]  [Layout fixo](https://github.com/gabipz/Academy-Creditas/tree/main/restaurante/restaurante-fixo-esquerda): largura total de 900px, alinhada a esquerda com menu possuindo 250px e o conteúdo 650px;
 
-- [X] [Layout fixo centralizado](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/) idem ao layout fixo, centralizado;
+- [X]  [Layout fixo centralizado](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/) idem ao layout fixo, centralizado;
 
-- [X] [Layout fluído](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido/): tanto o menu quanto o conteúdo;
+- [X]  [Layout fluído](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido/): tanto o menu quanto o conteúdo;
 
-- [X] [Layout fluído e menu fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido-menufixo/): menu com largura fixa + conteúdo fluído.
+- [X]  [Layout fluído e menu fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fluido-menufixo/): menu com largura fixa + conteúdo fluído.
 
 
 ### Páginas:
