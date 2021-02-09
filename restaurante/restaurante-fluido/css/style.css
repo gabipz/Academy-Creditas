@@ -36,17 +36,17 @@ body {
 }
 
 .circle-img {
-    margin: 20% 5% 5% 5%;
     background-color: #A04F4B;
     border-radius: 100%;
-    /* width: 50em;
-    height: 70%; */
-    /* width: 150px;
-    height: 150px; */
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
 }
 
  #img-logo {
     width: 66%;
+    margin-top: 30px;
 }
 
 .nav-item {
@@ -250,4 +250,22 @@ p {
     width: 60%;
     background-color: #DBE0D1;
     border-radius: 10px;
+}
+
+/* RESPONSIVIDADE- AJUSTE DE LAYOUT */
+
+@media screen and (max-width: 1050px){
+    .navbar {
+        padding: 0;
+        line-height: 50px;
+        list-style-type: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .navbar a {
+        font-size: 12px;
+        transition: ease 0.3s;
+    }
 }
