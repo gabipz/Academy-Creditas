@@ -44,9 +44,9 @@ body {
     margin-top: 10px;
 }
 
- #img-logo {
-    width: 66%;
-    margin-top: 30px;
+#img-logo {
+    width: 130px;
+    margin-top: 45px;
 }
 
 .nav-item {
@@ -100,9 +100,6 @@ body {
 }
 
 .box-img img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 60%;
     padding: 2%;
     margin-left: 20%;
@@ -260,6 +257,18 @@ p {
         line-height: 50px;
         list-style-type: none;
         width: 100%;
+    }
+
+    .circle-img {
+        width: 100px;
+        height: 100px;
+        transition: ease 0.3s;
+    }
+
+    #img-logo {
+        width: 87px;
+        margin-top: 32px;
+        transition: ease 0.3s;
     }
 }
 
