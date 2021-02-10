@@ -5,7 +5,7 @@ Site de restaurante japonês com quatro versões.
 
 ### Versões:
 
-- [X]  [Layout fixo](https://github.com/gabipz/Academy-Creditas/tree/main/restaurante/restaurante-fixo-esquerda): largura total de 900px, alinhada a esquerda com menu possuindo 250px e o conteúdo 650px;
+- [X]  [Layout fixo](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-esquerda): largura total de 900px, alinhada a esquerda com menu possuindo 250px e o conteúdo 650px;
 
 - [X]  [Layout fixo centralizado](https://gabipz.github.io/Academy-Creditas/restaurante/restaurante-fixo-centro/) idem ao layout fixo, centralizado;
 
